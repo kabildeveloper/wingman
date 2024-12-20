@@ -121,10 +121,10 @@ const OrdersTable = () => {
               <tr key={index} className="[&>td]:p-4">
                 <td>{row.product}</td>
                 <td>
-                  <div>
+                  <span className='block'>
                     <p>{row.date}</p>
                     <p className="text-[12px]">10:24 AM</p>
-                  </div>
+                  </span>
                 </td>
                 <td>{row.timeSpent}</td>
                 <td>{row.orderValue}</td>

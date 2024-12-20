@@ -61,8 +61,3 @@ export default function Home() {
 }
 
 
-//box-shadow: 0px 5px 22px 0px #0000000A;
-
-//box-shadow: 0px 0px 0px 1px #0000000F;
-
-
