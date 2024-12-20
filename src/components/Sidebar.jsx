@@ -7,14 +7,14 @@ const Sidebar = () => {
       <div className='border-[#134E48] border-b my-9'/>
 
       <div className='flex w-full items-center flex-col gap-8'>
-        <div className='bg-white p-[10px] rounded-lg'>
+        <div className='bg-white p-[10px] rounded-lg cursor-pointer'>
           <House width={20} height={20} weight="fill" color="#115E56"/>
         </div>
-        <div className='bg-transparent p-[10px] rounded-lg'>
-          <ChatTeardrop width={20} height={20} weight="fill" color="#CCFBEF"/>
+        <div className='bg-transparent hover:bg-white text-[#CCFBEF] hover:hover:text-[#115E56] p-[10px] rounded-lg cursor-pointer transition-all duration-300'>
+          <ChatTeardrop width={20} height={20} weight="fill" className='text-inherit' />
         </div>
-        <div className='bg-transparent p-[10px] rounded-lg'>
-          <UsersFour width={20} height={20} weight="fill" color="#CCFBEF"/>
+        <div className='bg-transparent hover:bg-white text-[#CCFBEF] hover:hover:text-[#115E56] p-[10px] rounded-lg cursor-pointer transition-all duration-300'>
+          <UsersFour width={20} height={20} weight="fill" className='text-inherit'/>
         </div>
       </div>
 
