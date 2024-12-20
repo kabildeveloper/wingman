@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  @media (min-width: 1920px) {
+    font-size: 1.05rem; // Slightly increase the font size for larger screens
+  }
+
+}
+
+
+.card {
+  @apply bg-white rounded-[20px] p-6;
+}
+
+.cardShadow {
+  box-shadow:0px 0px 0px 1px rgba(0, 0, 0, 0.06), 0px 5px 22px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1389px) {
+  .graph-col {
+    display: flex;
+    flex-direction: column;
+    &> .card {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
