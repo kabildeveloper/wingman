@@ -3,8 +3,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 I'm Kabil Rajendhiran, I have 2 years of professional experience and 1 year of freelancer experience. I have created this
-static page using Nextjs and Tailwind css. I hope this is enough to showcase my talent. I supports from mobile to 
-2k screens perfectly. Above 2k you may need to zoom a little bit.
+static page using Nextjs and Tailwind css. I hope this is enough to showcase my talent. It supports from mobile to 
+2k screens perfectly.
 
 [kabildeveloper@gmail.com](mailto:kabildeveloper@gmail.com)
 [My Personal Portfolio](https://kabildeveloper.netlify.app/)
